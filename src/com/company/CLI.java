@@ -8,7 +8,7 @@ public class CLI {
 
     public static String getString(String question) {
 
-        System.out.println(question);
+        System.out.print(question);
         return scanner.nextLine();
     }
 }
